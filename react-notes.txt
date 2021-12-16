@@ -1,0 +1,76 @@
+Steps:
+npx create-react-app
+
+For Clean Slate:
+1. Remove the following files
+	App.test.js
+	index.css
+	logo.svg
+	reportWebVitals.js
+
+2. Remove the importations in index.js such as the css and reportWebVitals
+
+3. Remove the importation of logo in App.js and the return div
+
+Installing Javascript(Babel)-code readability
+
+1. ctrl + shift + p
+2. type install
+3. select Package Control: Install Package
+4. On the lower left, you will see loading repositories
+5. type in babel
+6. select the first option
+
+JSX (JavaScript XML)
+>>HTML-like codes
+>>The difference between the HTML codes is that you can insert a Javascript logic in it.
+
+>HTML<
+
+<button disabled></button>
+
+>JSX<
+
+<button {if(){
+}
+else{
+
+}></button>
+
+React Process
+>Mounting
+	>>displays the component
+>Rendering
+	>>process of invoking a component returning a set of instructions
+
+Two Types of React
+Function
+sample: export default function AppNavbar(){
+	return(
+
+
+	)
+}
+
+Class-based
+sample: export default class AppNavbar extends Component{
+	render(){
+		return{
+			
+		}
+	}
+}
+
+Organizing import modules
+	1. import built-in react modules
+		>>like React and Fragment
+	2. import installed/ downloaded packages
+		>>react-bootstrap, swal
+	3. import from user-defined components
+		>> components, pages
+
+React follows Pascal Case in terms of naming conventions
+	>>capitalized letters for all words of the function AND the file name associated with it.
+
+React is a SPA
+	>>Single Page Application
